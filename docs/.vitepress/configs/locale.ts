@@ -73,7 +73,7 @@ export const getLocaleConfig = (lang: string) => {
     },
     editLink: {
       pattern: `${repoLink}/edit/main/docs/:path`,
-      text: t('在 GithuB 上编辑此页'),
+      text: t('在 GitHub 上编辑此页'),
     },
   }
 
