@@ -8,7 +8,7 @@ export const eng = {
   'v3（稳定版）': 'v3 (Stable)',
   'v4（预览版）': 'v4 (Preview)',
   '用 💴 发电': 'Make with 💴',
-  '在 GithuB 上编辑此页': 'Edit this page on GitHub',
+  '在 GitHub 上编辑此页': 'Edit this page on GitHub',
   'zh-CN': 'en',
   中文: 'English',
   文档目前处在特殊状态: 'The document is currently in a special state',
