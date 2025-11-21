@@ -1,31 +1,56 @@
-# BakaXL 下一代用户帮助文档
+# BakaXL 用户帮助文档
 
-**本文档为 BakaXL 4.0 打造，在后续会将 3.0 文档并入至该库中**
+**本文档已整合 BakaXL v3 与 v4 的内容**
+
+## 部署/测试帮助
+
+> [!NOTE]
+> 运行要求: node  
+> 请确保 node 与 pnpm 已配置在您的计算机环境变量中  
+> 诊断方法为在 PowerShell 或 CMD 中输入 `node -v` 与 `pnpm -v` 查看安装的 node 版本号
 
 
-##### 部署/测试帮助
-
-> 运行要求: node
-> 请确保 node 与 npm 已配置在您的计算机环境变量重
-> 诊断方法为在 PowerShell 或 CMD 中输入 `node -v` 与 `npm -v` 为您安装的 node 版本号
-
-
-在这里我们推荐使用 node 22 
+推荐使用 `node 22` 及以上版本
 
 ```bash
 corepack enable
 ```
 
-而后打开您本地的仓库文件夹，在里面打开终端，输入
+1. 克隆本仓库至本地
+
+```bash
+git clone https://github.com/BakaXL-Support/BakaXL-Document
+```
+
+
+2. 打开本地仓库文件夹，在`终端`中输入
 
 ```bash
 pnpm install
+```https://github.com/BakaXL-Support/BakaXL-Document
 ```
 
-在安装完成后您输入
+3. 安装完成后，输入以下命令启动本地测试环境
 
 ```bash
-pnpm docs:dev
+pnpm dev
 ```
 
-即可在您本地上查看文档，在浏览器中输入 vite 在 Local 行给出的 ip 即可访问您的测试环境
+> [!TIP]
+该状态下修改文件**无需关闭**本地服务器
+
+
+在浏览器中访问控制台输出的 Local 地址，即可预览文档内容
+``` bash
+ ➜  Local:   http://localhost:port/
+```
+
+按下`q`以关闭本地服务器
+
+4. 提交前请运行
+
+```bash
+pnpm build
+```
+
+以检查代码
