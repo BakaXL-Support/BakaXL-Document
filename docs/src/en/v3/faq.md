@@ -54,7 +54,7 @@ If the installation still fails, you can feedback the situation in the user comm
 
 ### When I use BakaXL to launch a game version installed by another launcher, mods, resource packs, shaders are not loaded / saves are missing
 
-This is usually because the launcher you used before **did not enable** [**version isolation**](/minecraft-version-seperation "About Version Isolation").
+This is usually because the launcher you used before **did not enable** [**version isolation**](./minecraft-version-seperation "About Version Isolation").
 
 To avoid the problem that new users **cannot install multiple versions with loaders at the same time**, BakaXL enables and **locks** version isolation by default.
 
@@ -64,7 +64,7 @@ If mods / resource packs / shader packs / saves / data packs are not loaded:
 2. Move the `saves` (game saves), `mods` (mods), `resourcepacks` (resource packs), and `shaderpacks` (shader packs) folders under the `.minecraft` directory to the `.minecraft/versions/(corresponding version folder name)` folder;
 3. Restart the version.
 
-If you want to sync mods, resource packs, shaders, saves, etc. between versions, please refer to this document: [About Version Isolation](/minecraft-version-seperation "About Version Isolation")
+If you want to sync mods, resource packs, shaders, saves, etc. between versions, please refer to this document: [About Version Isolation](./minecraft-version-seperation "About Version Isolation")
 
 > If you use `Fabric` as the mod loader, please install the `Mod Menu` mod; otherwise, the `Mod` button will not be displayed in the game.
 
@@ -86,7 +86,7 @@ Please ensure you are using [Java 17](https://download.bell-sw.com/java/17.0.3+7
 
 #### If your game version is Minecraft 1.8 - 1.16.5
 
-Please refer to this document: [How to handle Minecraft 1.8 - 1.16.5 crashes?](/minecraft-faq)
+Please refer to this document: [How to handle Minecraft 1.8 - 1.16.5 crashes?](./minecraft-faq)
 
 #### If your version is Minecraft 1.7.10
 
@@ -113,7 +113,7 @@ The method provided by independent advisor "A Big Blue Whale" in the article [Re
 
 2. Mod conflicts / incompatible mods / missing required mods:
 
-Please refer to this document: [>>> Mod Conflicts](/minecraft-faq#mod-conflicts)
+Please refer to this document: [>>> Mod Conflicts](./minecraft-faq#mod-conflicts)
 
 ### I logged in with a premium account, but my skin is not displayed
 
