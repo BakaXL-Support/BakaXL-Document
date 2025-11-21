@@ -5,12 +5,13 @@
     "@nolebase/vitepress-plugin-enhanced-mark": "^2.16.0",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.16.0",
     "@nolebase/vitepress-plugin-git-changelog": "^2.16.0",
-    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.16.0"
+    "@nolebase/vitepress-plugin-highlight-targeted-heading": "^2.16.0",
+    "@types/markdown-it-footnote": "^3.0.4"
   },
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "pnpm": {
     "peerDependencyRules": {
@@ -22,8 +23,11 @@
   },
   "packageManager": "pnpm@9.1.0",
   "dependencies": {
+    "markdown-it": "^14.1.0",
+    "markdown-it-footnote": "^4.0.0",
     "unocss": "^0.60.4",
-    "vue": "^3.4.27",
-    "vitepress": "^1.6.0"
+    "vitepress": "^1.6.0",
+    "vitepress-plugin-group-icons": "^1.6.5",
+    "vue": "^3.4.27"
   }
 }

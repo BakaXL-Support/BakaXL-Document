@@ -1,6 +1,9 @@
 import { defineConfig } from 'vitepress'
 import { getLocaleConfig } from './configs'
 import Unocss from 'unocss/vite'
+import { docsSidebar } from '../src/sidebar';
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+import footnotePlugin from 'markdown-it-footnote'
 
 import {
   GitChangelog,
@@ -9,6 +12,7 @@ import {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  srcDir: 'src',
   assetsDir: 'assets',
   head: [['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]],
   rewrites: {},
@@ -16,7 +20,18 @@ export default defineConfig({
     root: getLocaleConfig('cn'),
     en: getLocaleConfig('en'),
   },
+
+  markdown: {
+    lineNumbers: true,
+    image: { lazyLoading: true },
+    config: (md) => {
+      md.use(footnotePlugin)
+      md.use(groupIconMdPlugin)
+    }
+  },
+  
   themeConfig: {
+    sidebar: docsSidebar(),
     outline: [1, 4],
     search: {
       provider: 'local',
@@ -43,6 +58,7 @@ export default defineConfig({
       },
     },
   },
+  
   vite: {
     optimizeDeps: {
       include: [
@@ -65,6 +81,8 @@ export default defineConfig({
       // }),
       // GitChangelogMarkdownSection(),
       Unocss(),
+      groupIconVitePlugin()
     ],
   },
 })
+
