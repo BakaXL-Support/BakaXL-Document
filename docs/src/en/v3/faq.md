@@ -17,7 +17,7 @@ The method to switch the launcher update channel is as follows:
 - Click the small triangle next to `Change` and select **Parrot Channel or Pigeon Channel**
 - Finally, click Change and accept the update
 
-![Change Update Channel](./assets/v3-cn/imgs/ChangeUpdateChannel.png)
+![Change Update Channel](/assets/v3-cn/imgs/ChangeUpdateChannel.png)
 
 
 Participating in the Preview Experience Program allows you to get updates faster and avoid more bugs, but it may also **cause some unpredictable errors**.
@@ -28,7 +28,7 @@ If you find an error, please **report it to the BakaXL development team as soon 
 
 Click the `switch core icon` next to the `Start Game` button, or drag the "Start Game" button to the right.
 
-![Switch Launch Core](./assets/v3-cn/imgs/startUp.gif)
+![Switch Launch Core](/assets/v3-cn/imgs/startUp.gif)
 
 ### How to Solve Login Failures
 
@@ -54,17 +54,17 @@ If the installation still fails, you can feedback the situation in the user comm
 
 ### When I use BakaXL to launch a game version installed by another launcher, mods, resource packs, shaders are not loaded / saves are missing
 
-This is usually because the launcher you used before **did not enable** [**version isolation**](./minecraft-version-seperation "About Version Isolation").
+This is usually because the launcher you used before **did not enable** [**version isolation**](/minecraft-version-seperation "About Version Isolation").
 
 To avoid the problem that new users **cannot install multiple versions with loaders at the same time**, BakaXL enables and **locks** version isolation by default.
 
 If mods / resource packs / shader packs / saves / data packs are not loaded:
 
-1. Use BakaXL to [install the version with the corresponding mod loader](./index#adding-existing-minecraft-cores-or-modpacks) (down to the loader version number);
+1. Use BakaXL to [install the version with the corresponding mod loader](/index#adding-existing-minecraft-cores-or-modpacks) (down to the loader version number);
 2. Move the `saves` (game saves), `mods` (mods), `resourcepacks` (resource packs), and `shaderpacks` (shader packs) folders under the `.minecraft` directory to the `.minecraft/versions/(corresponding version folder name)` folder;
 3. Restart the version.
 
-If you want to sync mods, resource packs, shaders, saves, etc. between versions, please refer to this document: [About Version Isolation](./minecraft-version-seperation "About Version Isolation")
+If you want to sync mods, resource packs, shaders, saves, etc. between versions, please refer to this document: [About Version Isolation](/minecraft-version-seperation "About Version Isolation")
 
 > If you use `Fabric` as the mod loader, please install the `Mod Menu` mod; otherwise, the `Mod` button will not be displayed in the game.
 
@@ -76,7 +76,7 @@ The solution is the same as the previous question.
 
 Go to `Launcher Settings` - `Java Virtual Machine and Memory`, scroll down to `Memory Settings`, you can set it manually, but BakaXL recommends that you enable `Auto-set Memory`.
 
-![setGameMemory](./assets/v3-cn/imgs/setGameMemory.png)
+![setGameMemory](/assets/v3-cn/imgs/setGameMemory.png)
 
 ### Minecraft Crashed
 
@@ -86,7 +86,7 @@ Please ensure you are using [Java 17](https://download.bell-sw.com/java/17.0.3+7
 
 #### If your game version is Minecraft 1.8 - 1.16.5
 
-Please refer to this document: [How to handle Minecraft 1.8 - 1.16.5 crashes?](./minecraft-faq)
+Please refer to this document: [How to handle Minecraft 1.8 - 1.16.5 crashes?](/minecraft-faq)
 
 #### If your version is Minecraft 1.7.10
 
@@ -113,7 +113,7 @@ The method provided by independent advisor "A Big Blue Whale" in the article [Re
 
 2. Mod conflicts / incompatible mods / missing required mods:
 
-Please refer to this document: [>>> Mod Conflicts](./minecraft-faq#mod-conflicts)
+Please refer to this document: [>>> Mod Conflicts](/minecraft-faq#mod-conflicts)
 
 ### I logged in with a premium account, but my skin is not displayed
 
@@ -156,15 +156,15 @@ Octo Octopus Network is in the testing phase and will support interconnection be
 
 ### Cannot Create a Lobby in BakaXL Lobby
 
-![Error](./assets/v3-cn/imgs/Bakaxl_online_problem.png)
+![Error](/assets/v3-cn/imgs/Bakaxl_online_problem.png)
 
 > Before creating a lobby, please check if your Minecraft has enabled LAN multiplayer.
 
-![Check if Minecraft has enabled LAN multiplayer](./assets/v3-cn/imgs/resolveMinecraftOnlineIssues.png)
+![Check if Minecraft has enabled LAN multiplayer](/assets/v3-cn/imgs/resolveMinecraftOnlineIssues.png)
 
-![](./assets/v3-cn/imgs/solveBakaXLOnlineProblems-1.png)
+![](/assets/v3-cn/imgs/solveBakaXLOnlineProblems-1.png)
 
-![](./assets/v3-cn/imgs/solveBakaXLOnlineProblems-2.png)
+![](/assets/v3-cn/imgs/solveBakaXLOnlineProblems-2.png)
 
 First, check if your Java path contains the word `Javapath`. If so, replace it with another Java version.
 
@@ -177,12 +177,12 @@ Also, ensure your BakaXL is the latest Parrot Channel preview version.
 1. Go to `Launcher Settings` and select `Accounts and Profiles`
 2. Select your offline profile and click `Set offline skin for my Minecraft character`
 
-![enableSkinShare-1](./assets/v3-cn/imgs/enableSkinShare-1.png)
+![enableSkinShare-1](/assets/v3-cn/imgs/enableSkinShare-1.png)
 
 3. Go to `Realms / Multiplayer Lobby` and select `User Settings`
 4. Ensure `BakaXL Network SkinShare` is set to `On`
 
-![setSkninShare-2](./assets/v3-cn/imgs/enableSkinShare-2.png)
+![setSkninShare-2](/assets/v3-cn/imgs/enableSkinShare-2.png)
 
 ### Players Cannot See Each Other's Skins in BakaXL Lobby Multiplayer
 

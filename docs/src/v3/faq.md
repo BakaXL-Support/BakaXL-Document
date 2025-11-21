@@ -17,7 +17,7 @@
 - 点击 `变更` 左边的小三角选择 **鹦鹉通道或鸽子通道**
 - 最后点击变更并接受更新即可
 
-![更换通道](./assets/v3-cn/imgs/ChangeUpdateChannel.png)
+![更换通道](/assets/v3-cn/imgs/ChangeUpdateChannel.png)
 
 
 参加预览体验计划虽然可以更快的获取更新，能够避免更多的 Bug 出现，但相应的也 **可能会发生一些不可预知的错误**
@@ -28,7 +28,7 @@
 
 点击 `启动游戏`按钮旁边的 `切换核心图标`，或向右拖拽「启动游戏」按钮。
 
-![切换启动核心](./assets/v3-cn/imgs/startUp.gif)
+![切换启动核心](/assets/v3-cn/imgs/startUp.gif)
 
 ### 无法登录如何解决
 
@@ -54,17 +54,17 @@
 
 ### 我使用 BakaXL 启动其他启动器所安装的游戏版本，但 Mod 、资源包、光影未加载 / 存档消失了
 
-这通常是因为您先前所使用的启动器**未打开**[**版本隔离**](./minecraft-version-seperation "关于版本隔离")导致的。
+这通常是因为您先前所使用的启动器**未打开**[**版本隔离**](/minecraft-version-seperation "关于版本隔离")导致的。
 
 为避免新手存在**无法同时安装多个含加载器的版本**的问题，BakaXL 默认且**锁定**为开启版本隔离。
 
 若存在 Mod / 资源包 / 光影 / 存档 / 数据包 等不加载的情况：
 
-1. 请使用 BakaXL [安装含对应 Mod 加载器的版本](./index#添加已拥有的-minecraft-核心-或-整合包)（精确到加载器版本号）；
+1. 请使用 BakaXL [安装含对应 Mod 加载器的版本](/index#添加已拥有的-minecraft-核心-或-整合包)（精确到加载器版本号）；
 2. 将 *`.minecraft`* 目录下 *`saves`*（游戏存档），*`mods`*（模组），*`resourcepacks`*（资源包），*`shaderpacks`*（光影包）文件夹移动至 *`.minecraft/versions/(对应版本的文件夹名称)`* 文件夹中；
 3. 重新启动该版本。
 
-若希望同步版本之间的 Mod，资源包，光影，存档等，请参考此篇文档：[关于版本隔离](./minecraft-version-seperation "关于版本隔离")
+若希望同步版本之间的 Mod，资源包，光影，存档等，请参考此篇文档：[关于版本隔离](/minecraft-version-seperation "关于版本隔离")
 
 > 若您使用 `Fabric` 作为模组加载器，请安装 `Mod Menu` 模组，否则将不会在游戏内显示 `Mod` 按钮。
 
@@ -76,7 +76,7 @@
 
 前往 `本体设置` - `Java 虚拟机与内存`，下翻到 `内存设置`，可以自行设置， 但 BakaXL 推荐您打开 `自动设置内存`。
 
-![setGameMemory](./assets/v3-cn/imgs/setGameMemory.png)
+![setGameMemory](/assets/v3-cn/imgs/setGameMemory.png)
 
 ### Minecraft 游戏崩溃了
 
@@ -86,7 +86,7 @@
 
 #### 若您的游戏版本是 Minecraft 1.8 - 1.16.5
 
-请参考此篇文档：[Minecraft 1.8 - 1.16.5 崩溃如何处理？](./minecraft-faq)
+请参考此篇文档：[Minecraft 1.8 - 1.16.5 崩溃如何处理？](/minecraft-faq)
 
 #### 若您的版本是 Minecraft 1.7.10
 
@@ -113,7 +113,7 @@
 
 2. Mod 冲突 / 存在不适配的 Mod / 缺少前置 Mod：
 
-请参考此篇文档：[>>> Mod 冲突](./minecraft-faq#mod-冲突)
+请参考此篇文档：[>>> Mod 冲突](/minecraft-faq#mod-冲突)
 
 ### 我使用正版账号登录，却没有显示皮肤
 
@@ -156,15 +156,15 @@ Octo 章鱼网络 正处于测试阶段，届时将支持 HMCL、PCL 与 BakaXL 
 
 ### 在 BakaXL 大厅里面无法创建大厅
 
-![报错](./assets/v3-cn/imgs/Bakaxl_online_problem.png)
+![报错](/assets/v3-cn/imgs/Bakaxl_online_problem.png)
 
 > 在创建大厅前，请检查您的 Minecraft 是否打开了局域网联机。
 
-![检查Minecraft是否启动局域网联机](./assets/v3-cn/imgs/resolveMinecraftOnlineIssues.png)
+![检查Minecraft是否启动局域网联机](/assets/v3-cn/imgs/resolveMinecraftOnlineIssues.png)
 
-![](./assets/v3-cn/imgs/solveBakaXLOnlineProblems-1.png)
+![](/assets/v3-cn/imgs/solveBakaXLOnlineProblems-1.png)
 
-![](./assets/v3-cn/imgs/solveBakaXLOnlineProblems-2.png)
+![](/assets/v3-cn/imgs/solveBakaXLOnlineProblems-2.png)
 
 首先，请检查您正在使用的的 Java 路径是否存在 `Javapath` 字样。若有，请更换其他 Java。
 
@@ -177,12 +177,12 @@ Octo 章鱼网络 正处于测试阶段，届时将支持 HMCL、PCL 与 BakaXL 
 1. 前往 `本体设置`并选择 `账户与档案`
 2. 选择您的离线档案，并点击 `为我的 Minecaft 角色设置离线皮肤`
 
-![enableSkinShare-1](./assets/v3-cn/imgs/enableSkinShare-1.png)
+![enableSkinShare-1](/assets/v3-cn/imgs/enableSkinShare-1.png)
 
 3. 前往 `领域 / 联机大厅` 并选择 `用户设置`
 4. 确保 `BakaXL Network SkinShare 皮肤妙享` 设置为 `开`
 
-![setSkninShare-2](./assets/v3-cn/imgs/enableSkinShare-2.png)
+![setSkninShare-2](/assets/v3-cn/imgs/enableSkinShare-2.png)
 
 ### 在 BakaXL 大厅联机中玩家之间无法显示对方的皮肤
 

@@ -1,6 +1,6 @@
 # BakaXL User Manual
 
-[>>> Encountering issues while using BakaXL?](./faq)
+[>>> Encountering issues while using BakaXL?](/faq)
 
 ## Before You Start
 
@@ -180,7 +180,7 @@ To register a new account, go to [BakaXL Account Register](https://account.baka.
 
 If you **get stuck on the login page and cannot return** when logging in/registering an account (the back button is gray and unclickable) as shown in the figure below:
 
-![LoginPageErr](./assets/v3-cn/Minecraft_CRQA/LoginPageErr.jpg)
+![LoginPageErr](/assets/v3-cn/Minecraft_CRQA/LoginPageErr.jpg)
 
 Then please **switch to the Parrot Channel for an update** and try logging in again, and wait patiently on that page to resolve the issue.
 
@@ -228,7 +228,7 @@ If you cannot join the game, BakaXL will display your status in the lobby's play
 
 You can also obtain some help regarding the multiplayer feature through our help documentation:
 
-[>>> Troubleshooting for BakaXL Multiplayer Issues](./faq#联机问题一览)
+[>>> Troubleshooting for BakaXL Multiplayer Issues](/faq#联机问题一览)
 
 #### Playing Minecraft Instances Launched by Other Launchers via BakaXL
 
@@ -263,4 +263,4 @@ Just go to `Launcher Settings` - `Accounts & Profiles`, click your offline profi
 
 Then go to `Bakaverse / Multiplayer Lobby` - `User Settings` and ensure that `BakaXL Network SkinShare` is enabled.
 
-> If you still cannot solve your problem after reading this user manual and the [help documentation](./faq), you can seek help in the [BakaXL Outsider QQ Group (480455628)](https://jq.qq.com/?_wv=1027&k=U1ZY0qbg).
+> If you still cannot solve your problem after reading this user manual and the [help documentation](/faq), you can seek help in the [BakaXL Outsider QQ Group (480455628)](https://jq.qq.com/?_wv=1027&k=U1ZY0qbg).

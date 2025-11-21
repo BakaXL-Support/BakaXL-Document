@@ -22,7 +22,7 @@ Due to compatibility issues with `Forge`, **please ensure that the automatic Jav
 
 When installing `Forge`, you may encounter a seemingly unsolvable `BLF-402` issue
 
-![BLF-402](./assets/v3-cn/Minecraft_CRQA/BLF-402.png)
+![BLF-402](/assets/v3-cn/Minecraft_CRQA/BLF-402.png)
 
 This issue is generally accompanied by problems with core installation, and the installed vanilla core or imported modpack **cannot be found in the version list**
 
@@ -41,7 +41,7 @@ This issue is generally caused by **network environment problems or system reaso
 
 Disable conflicting mods according to your choice. If you don't know which mods are conflicting, please go to the [__Official BakaXL Group Chat__](https://jq.qq.com/?_wv=1027&k=TwvkLgkB) for help, or check by yourself according to the tutorial.
 
-![BakaXL Mod 管理界面](./assets/v3-cn/Minecraft_CRQA/gameModSetting.png)
+![BakaXL Mod 管理界面](/assets/v3-cn/Minecraft_CRQA/gameModSetting.png)
 
 ## Outdated / Uninstalled Graphics Card Driver
 
@@ -56,7 +56,7 @@ Laptop users can usually skip this section directly.
 
 3. In the pop-up window, click `Display`, and the manufacturer of your graphics card will be shown in the `Manufacturer` column.
 
-![dx诊断工具](./assets/v3-cn/Minecraft_CRQA/directXtools.png)
+![dx诊断工具](/assets/v3-cn/Minecraft_CRQA/directXtools.png)
 
 ### Laptop Users
 
@@ -70,13 +70,13 @@ Please download the [__Intel™ Driver & Support Assistant__](https://dsadata.in
 
 Go to the [__AMD Drivers & Support__](https://www.amd.com/zh-hans/support) page to download the latest drivers according to your graphics card / processor model.
 
-![AMD 驱动下载页面](./assets/v3-cn/Minecraft_CRQA/amdDriver.png)
+![AMD 驱动下载页面](/assets/v3-cn/Minecraft_CRQA/amdDriver.png)
 
 ### NVIDIA Graphics Cards
 
 Please go to the [__NVIDIA Drivers__](https://www.nvidia.cn/geforce/drivers/) page to download the latest graphics driver according to your graphics card model and needs.
 
-![NVIDIA 驱动下载页面](./assets/v3-cn/Minecraft_CRQA/nvidiaDriver.png)
+![NVIDIA 驱动下载页面](/assets/v3-cn/Minecraft_CRQA/nvidiaDriver.png)
 
 ## Excessively Large (or Small) Allocated Memory
 
@@ -88,7 +88,7 @@ Please go to the [__NVIDIA Drivers__](https://www.nvidia.cn/geforce/drivers/) pa
 When you choose to manually allocate memory, please ensure that the allocated memory does not exceed the maximum available memory you currently have.
 
 
-![系统内存](./assets/v3-cn/Minecraft_CRQA/systemMemory.png)
+![系统内存](/assets/v3-cn/Minecraft_CRQA/systemMemory.png)
 
 > [!TIP]
 You need to allocate more memory when there are more mods (or higher resolution resource packs, longer draw distance), but do not exceed your available memory.
