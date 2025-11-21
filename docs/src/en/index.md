@@ -5,15 +5,15 @@ layout: home
 hero:
   name: "BakaXL Help Center"
   text: "The next generate user help center"
-  tagline: "For BakaXL 4.0 build"
+  tagline: "Help Documents for BakaXL Users"
   image: "/logo.png"
   actions:
     - theme: brand
-      text: 🚀 Start use!
-      link: /start-use-bakaxl
+      text: 🚀 Start use BakaXL v3!
+      link: /en/v3/
     - theme: alt
       text: 🆘 Have problem?
-      link: /problem-doc
+      link: /en/v3/faq.html
 
 features:
   - title: ✨ New Design, New Experience

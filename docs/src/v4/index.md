@@ -4,9 +4,8 @@ outline: deep
 
 # 欢迎使用下一代 BakaXL
 
-::: warning
+> [!WARNING]
 目前 BakaXL 4.0 处于早期预览，大部分功能暂不可用或经常会发生变动，请勿作为主要游戏启动器
-:::
 
 你可能会想知道:
 
@@ -17,7 +16,13 @@ outline: deep
 
 ### 更加流畅的帧数
 
-设置环境变量 `WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS --disable-frame-rate-limit --disable-gpu-vsync --max-gum-fps="9999"` 可以不限制 BakaXL 4 的帧率
+设置环境变量 
+
+``` text
+WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS --disable-frame-rate-limit --disable-gpu-vsync --max-gum-fps="9999"
+```
+
+可以不限制 BakaXL 4 的帧率
 
 ### BakaXL 4.0 无限弹窗提醒更新
 

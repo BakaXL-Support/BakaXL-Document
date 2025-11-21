@@ -1,5 +1,6 @@
 import { createTranslate } from '../i18n/utils'
 import type { DefaultTheme, HeadConfig, LocaleConfig } from 'vitepress'
+import { docsSidebar } from '../../src/sidebar' // 引入侧边栏函数
 
 export const getLocaleConfig = (lang: string) => {
   const t = createTranslate(lang)
@@ -24,42 +25,13 @@ export const getLocaleConfig = (lang: string) => {
   ]
 
   const nav: DefaultTheme.NavItem[] = [
-    { text: `🏠 ${t('主页')}`, link: urlPrefix + '/' },
-    { text: `🍟 ${t('食用指南')}`, link: urlPrefix + '/v3/' },
-    { text: `❓ ${t('遇到问题?')}`, link: urlPrefix + '/v3/faq' },
-    {
-      text: `📚 ${t('v3 相关文档')}`,
-      items: [
-        {
-          text: `🤔 ${t('游戏常见问题')}`,
-          link: urlPrefix + '/v3/minecraft-faq',
-        },
-        {
-          text: `😷 ${t('游戏版本隔离')}`,
-          link: urlPrefix + '/v3/minecraft-version-seperation',
-        },
-        {
-          text: `📦 ${t('制作游戏整合包')}`,
-          link: urlPrefix + '/v3/modpack-tutorial',
-        },
-        {
-          text: `❌ ${t('编写规则')}`,
-          link: urlPrefix + '/v3/write-rule',
-        },
-      ],
-    },
-    {
-      text: `🦽 ${t('v3（稳定版）')}`,
-      items: [
-        { text: `🦽 ${t('v3（稳定版）')}`, link: urlPrefix + '/v3/' },
-        { text: `🛰 ${t('v4（预览版）')}`, link: urlPrefix + '/v4/' },
-      ],
-    },
+    { text: `📚${t('文档')}`, link: urlPrefix + '/v3/' },
   ]
-
+ 
   const themeConfig: DefaultTheme.Config = {
     logo: '/favicon.svg',
     nav,
+    sidebar: docsSidebar(lang), // 配置多语言侧边栏
     socialLinks: [
       {
         icon: 'github',
