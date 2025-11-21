@@ -22,7 +22,7 @@
 
 当您在安装 `Forge` 时，可能会遇到一个看似无法解决的 `BLF-402` 问题
 
-![BLF-402](./assets/v3-cn/Minecraft_CRQA/BLF-402.png)
+![BLF-402](/assets/v3-cn/Minecraft_CRQA/BLF-402.png)
 
 此问题出现时一般还伴随着核心安装出现问题，安装后的原版核心或导入的整合包**无法在版本列表中找到**
 
@@ -41,7 +41,7 @@
 
 请按照自己的选择来禁用冲突的 Mod，若您不知道哪些 Mod 冲突，请前往 [__BakaXL 官方群聊__](https://jq.qq.com/?_wv=1027&k=TwvkLgkB)寻求帮助，或按照教程自查。
 
-![BakaXL Mod 管理界面](./assets/v3-cn/Minecraft_CRQA/gameModSetting.png)
+![BakaXL Mod 管理界面](/assets/v3-cn/Minecraft_CRQA/gameModSetting.png)
 
 ## 显卡驱动过旧 / 未安装
 
@@ -56,7 +56,7 @@
 
 3. 在弹出的窗口中点击 `显示` ，在 `制造商` 一列将会显示您的显卡制造商。
 
-![dx诊断工具](./assets/v3-cn/Minecraft_CRQA/directXtools.png)
+![dx诊断工具](/assets/v3-cn/Minecraft_CRQA/directXtools.png)
 
 ### 笔记本用户
 
@@ -70,13 +70,13 @@
 
 前往 [__AMD 驱动程序与支持__](https://www.amd.com/zh-hans/support) 页面根据您的显卡 / 处理器型号下载最新的驱动程序 。
 
-![AMD 驱动下载页面](./assets/v3-cn/Minecraft_CRQA/amdDriver.png)
+![AMD 驱动下载页面](/assets/v3-cn/Minecraft_CRQA/amdDriver.png)
 
 ### NVIDIA 显卡
 
 请前往 [__NVIDIA 驱动程序__](https://www.nvidia.cn/geforce/drivers/) 页面根据显卡型号和需要下载最新的显卡驱动。
 
-![NVIDIA 驱动下载页面](./assets/v3-cn/Minecraft_CRQA/nvidiaDriver.png)
+![NVIDIA 驱动下载页面](/assets/v3-cn/Minecraft_CRQA/nvidiaDriver.png)
 
 ## 分配内存过大 (过小)
 
@@ -88,7 +88,7 @@
 当您选择手动分配内存时，请确保分配的内存没有超过您目前可用的最大内存。
 
 
-![系统内存](./assets/v3-cn/Minecraft_CRQA/systemMemory.png)
+![系统内存](/assets/v3-cn/Minecraft_CRQA/systemMemory.png)
 
 > [!TIP]
 Mod 越多（或材质包分辨率更大，能见度更远）时你需要分配更多的内存，但是不要超出你的可用内存。
