@@ -1,8 +1,7 @@
 # BakaXL 启动器常见问题解决方案文档
 
-:::tip 提示
+> [!TIP]
 使用侧边栏目录来快速寻找您的问题。
-:::
 
 ## 常见 BakaXL 问题一览
 
@@ -12,14 +11,14 @@
 
 切换启动器更新通道的方法如下
 
-:::tip
+> [!TIP]
 - 进入本体设置
 - 下滑找到 `预览体验计划`
 - 点击 `变更` 左边的小三角选择 **鹦鹉通道或鸽子通道**
 - 最后点击变更并接受更新即可
 
-![更换通道](/assets/v3-cn/imgs/ChangeUpdateChannel.png)
-:::
+![更换通道](./assets/v3-cn/imgs/ChangeUpdateChannel.png)
+
 
 参加预览体验计划虽然可以更快的获取更新，能够避免更多的 Bug 出现，但相应的也 **可能会发生一些不可预知的错误**
 
@@ -29,7 +28,7 @@
 
 点击 `启动游戏`按钮旁边的 `切换核心图标`，或向右拖拽「启动游戏」按钮。
 
-![切换启动核心](/assets/v3-cn/imgs/startUp.gif)
+![切换启动核心](./assets/v3-cn/imgs/startUp.gif)
 
 ### 无法登录如何解决
 
@@ -77,7 +76,7 @@
 
 前往 `本体设置` - `Java 虚拟机与内存`，下翻到 `内存设置`，可以自行设置， 但 BakaXL 推荐您打开 `自动设置内存`。
 
-![setGameMemory](/assets/v3-cn/imgs/setGameMemory.png)
+![setGameMemory](./assets/v3-cn/imgs/setGameMemory.png)
 
 ### Minecraft 游戏崩溃了
 
@@ -95,15 +94,14 @@
 
 #### 全版本游戏通用的崩溃问题
 
-::: warning 警告
+> [!WARNING]
 在系统使用 Unicode UTF-8 的情况下使用中文目录存储 / 启动游戏必定会导致游戏崩溃。
 
 关于如何找到 Unicode 选项请参照: [将 Windows10 设置为 UTF8 编码格式 - CSDN](https://blog.csdn.net/xt_v2012/article/details/93784751)
 将选项 `Beta 版: 使用 Unicode UTF-8 提供全球语言支持 (U)` 旁的复选框取消勾选后重新启动即可关闭 Unicode UTF-8 
 
 若出现重启后检查依旧仍在使用 Unicode UTF-8 模式请参考: 
-[地區設定 勾選 “Beta 版：使用 Unicode UTF-8 提供全球語言支援” 後重開機依舊無法更改回來 - Microsoft Q&A](https://answers.microsoft.com/zh-hant/windows/forum/all/%E5%9C%B0%E5%8D%80%E8%A8%AD%E5%AE%9A/e596c312-1eda-41c2-a85e-f41a1f5ced9e) 一文中独立顾问 “A Big 蓝鲸” 提供的方法。
-:::
+[地區設定 勾選 "Beta 版：使用 Unicode UTF-8 提供全球語言支援" 後重開機依舊無法更改回來 - Microsoft Q&A](https://answers.microsoft.com/zh-hant/windows/forum/all/%E5%9C%B0%E5%8D%80%E8%A8%AD%E5%AE%9A/e596c312-1eda-41c2-a85e-f41a1f5ced9e) 一文中独立顾问 "A Big 蓝鲸" 提供的方法。
 
 1. .minecraft 目录中存在中文字符有可能导致游戏崩溃，如果发生了崩溃情况请尝试移出中文路径；
 
@@ -116,6 +114,14 @@
 2. Mod 冲突 / 存在不适配的 Mod / 缺少前置 Mod：
 
 请参考此篇文档：[>>> Mod 冲突](./minecraft-faq#mod-冲突)
+
+### 我使用正版账号登录，却没有显示皮肤
+
+此问题表现于使用正版账号进入单人游戏后不显示原有皮肤，且在 `本体设置` - `账户与档案` 中查看自己的正版档案时未显示原有皮肤
+
+您可以在 `本体设置` - `账户与档案` - `Minecraft 用户档案`中，找到您需要配置的正版验证档案并双击进入
+
+在 `账户信息` 中找到 `切换至其他微软账户` 按钮并点击，使用**原来登陆的正版账号**重新验证一次即可
 
 ## 联机攻略
 
@@ -133,32 +139,32 @@ IPv6 是新一代互联网协议，它解决了 IPv4 地址枯竭的问题。我
 
 使用 [迅游加速器](https://www.xunyou.com/)，即可享受更加高速稳定的联机体验。配合迅游高速组网，让全球玩家都能共同游戏。同时迅游还支持 Hypixel 加速，畅玩海外知名小游戏服。
 
-使用兑换码：“**BakaXL**”，即可免费领取 3 天体验资格，并享受 85 折优惠续费。
+使用兑换码："**BakaXL**"，即可免费领取 3 天体验资格，并享受 85 折优惠续费。
 
 ### 3.使用BakaXL中继服务
 如果暂时不考虑使用加速器，可以考虑使用BakaXL的中继服务。
 
-在大厅中开启 “**在无法建立直接连接时使用中继连接**” 选项，即可使用由赞助商“蓝科数据”提供的可信的免费中继服务。
+在大厅中开启 "**在无法建立直接连接时使用中继连接**" 选项，即可使用由赞助商"蓝科数据"提供的可信的免费中继服务。
 ![image](https://contents.baka.zone/web-cdn/image/relay.png)
 
 ## 联机问题一览
 
-::: tip 提示
+> [!TIP]
 目前 BakaXL 大厅正在公开测试，详情请查阅 [BakaXL / PCL2 / HMCL 对联机功能下一步发展的联合公告](https://www.bilibili.com/read/cv19553724) 。
 Octo 章鱼网络 正处于测试阶段，届时将支持 HMCL、PCL 与 BakaXL 三启动器互联。
-:::
+
 
 ### 在 BakaXL 大厅里面无法创建大厅
 
-![报错](/assets/v3-cn/imgs/Bakaxl_online_problem.png)
+![报错](./assets/v3-cn/imgs/Bakaxl_online_problem.png)
 
 > 在创建大厅前，请检查您的 Minecraft 是否打开了局域网联机。
 
-![检查Minecraft是否启动局域网联机](/assets/v3-cn/imgs/resolveMinecraftOnlineIssues.png)
+![检查Minecraft是否启动局域网联机](./assets/v3-cn/imgs/resolveMinecraftOnlineIssues.png)
 
-![](/assets/v3-cn/imgs/solveBakaXLOnlineProblems-1.png)
+![](./assets/v3-cn/imgs/solveBakaXLOnlineProblems-1.png)
 
-![](/assets/v3-cn/imgs/solveBakaXLOnlineProblems-2.png)
+![](./assets/v3-cn/imgs/solveBakaXLOnlineProblems-2.png)
 
 首先，请检查您正在使用的的 Java 路径是否存在 `Javapath` 字样。若有，请更换其他 Java。
 
@@ -171,12 +177,12 @@ Octo 章鱼网络 正处于测试阶段，届时将支持 HMCL、PCL 与 BakaXL 
 1. 前往 `本体设置`并选择 `账户与档案`
 2. 选择您的离线档案，并点击 `为我的 Minecaft 角色设置离线皮肤`
 
-![enableSkinShare-1](/assets/v3-cn/imgs/enableSkinShare-1.png)
+![enableSkinShare-1](./assets/v3-cn/imgs/enableSkinShare-1.png)
 
 3. 前往 `领域 / 联机大厅` 并选择 `用户设置`
 4. 确保 `BakaXL Network SkinShare 皮肤妙享` 设置为 `开`
 
-![setSkninShare-2](/assets/v3-cn/imgs/enableSkinShare-2.png)
+![setSkninShare-2](./assets/v3-cn/imgs/enableSkinShare-2.png)
 
 ### 在 BakaXL 大厅联机中玩家之间无法显示对方的皮肤
 
@@ -212,10 +218,9 @@ Octo 章鱼网络 正处于测试阶段，届时将支持 HMCL、PCL 与 BakaXL 
 3. 找到 `高级选项` 点击 `修改高级选项`
 4. 向下滚动找到 `Java 虚拟机参数` 一栏，填入 `-Djava.net.preferIPv4Stack=true` 后返回
 
-::: tips 提示
+> [!TIP]
 以上方法应该能够修复您无法找到多人大厅的情况，同时请务必[配置 BakaXL 通过 Windows 防火墙](####检查防火墙)
 若配置防火墙后执行以上方法仍无法使用可以尝试以下方法
-:::
 
 1. 用记事本打开 `C:\Windows\System32\drivers\etc\hosts` ，删除其中的所有内容并保存；
 2. 按下 `Windows` + `X` ，选择 `Windows Powershell (管理员)` 或 `命令提示符 (管理员)` 或 `Windows 终端 (管理员)`；
@@ -239,7 +244,7 @@ Octo 章鱼网络 正处于测试阶段，届时将支持 HMCL、PCL 与 BakaXL 
 
 [&gt;&gt;如何更新到最新预览版 BakaXL ](#如何更新到最新预览版BakaXL)
 
-### 在 BakaXL 大厅联机中显示 “连接超时”
+### 在 BakaXL 大厅联机中显示 "连接超时"
 
 > 若未能解决此问题，请在 BakaXL 用户群中求助。
 
@@ -261,11 +266,10 @@ Octo 章鱼网络 正处于测试阶段，届时将支持 HMCL、PCL 与 BakaXL 
 
 ### 出现 `io.netty buffer` 联机失败
 
-::: tip 提示
+> [!TIP]
 io.netty 错误有很多，但是以 buffer 导致的连接失败只有一个，因此您只需要捕捉关键字 `io.netty` 和 `buffer`；
 
 在出现这类错误时请您提交一份 Mod 包给 BakaXL 开发团队以便找到不支持的 Mod。
-:::
 
 这类问题的出现并非由于 BakaXL 导致的，而是由于 Mod 本身不支持 SSP LAN (即局域网广播)，来自 Mod 的缺陷只能依靠 Mod 开发者解决或使用其它方法联机
 如果 Mod 不支持 SSP LAN ，那么无论使用什么启动器只要使用的是 SSP LAN 方案便无法进行联机，如果一定要使用这些 Mod 建议使用其它多人联机方案进行联机
@@ -278,9 +282,8 @@ io.netty 错误有很多，但是以 buffer 导致的连接失败只有一个，
 
 ### 在使用连接助理时出现了问题
 
-::: tip 提示
+> [!TIP]
 关于连接助理的绝大多数问题可以通过重新加入大厅或重启 BakaXL 解决。
-:::
 
 #### 在使用连接助理时取消登录后无法再次重新建立连接
 
@@ -302,9 +305,8 @@ io.netty 错误有很多，但是以 buffer 导致的连接失败只有一个，
 
 #### 方法一
 
-::: tip 提示
+> [!TIP]
 该方案只适用于 1.15.2 及以上版本
-:::
 
 BakaXL 大厅本身并不限制游戏人数，该限制来自 Minecraft 本身。
 
@@ -324,7 +326,7 @@ BakaXL 大厅本身并不限制游戏人数，该限制来自 Minecraft 本身�
 
 **解决方法:**
 
-1. 使用网游加速器，如 [迅游加速器](https://www.xunyou.com/)，加速国际版 Minecraft 相关。使用兑换码：“**BakaXL**”，即可免费领取 3 天体验资格，并享受 85 折优惠续费。
+1. 使用网游加速器，如 [迅游加速器](https://www.xunyou.com/)，加速国际版 Minecraft 相关。使用兑换码："**BakaXL**"，即可免费领取 3 天体验资格，并享受 85 折优惠续费。
 2. 更改 DNS 为 `223.5.5.5` 和 `4.2.2.1`       [更改 DNS 教程 (Win10)](https://jingyan.baidu.com/article/495ba841ff105d79b20ede24.html)  [更改 DNS 教程 (Win7)](https://jingyan.baidu.com/article/cb5d61053c1fd6415c2fe09e.html)；
 3. 使用科学上网方法，启动全局代理模式。
 

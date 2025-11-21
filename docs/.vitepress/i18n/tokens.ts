@@ -3,10 +3,7 @@ export const eng = {
   '提供 BakaXL 启动器在使用时疑难解答服务，同时也提供了一些其他的技术文档':
     'Provides troubleshooting services for the BakaXL launcher when in use, as well as some other technical documents',
   主页: 'Home',
-  食用指南: 'Start',
-  '遇到问题?': 'FAQ',
-  'v3（稳定版）': 'v3 (Stable)',
-  'v4（预览版）': 'v4 (Preview)',
+  文档: 'Documents',
   '用 💴 发电': 'Make with 💴',
   '在 GitHub 上编辑此页': 'Edit this page on GitHub',
   'zh-CN': 'en',
@@ -22,10 +19,6 @@ export const eng = {
   '本文档已被封存，仅供参考使用，文档所述均已失效或不可保证':
     'This document has been archived and is for reference only. The content of the document is invalid or cannot be guaranteed',
   'v3 相关文档': 'v3 Related Documents',
-  游戏常见问题: 'Common Game Issues',
-  游戏版本隔离: 'Game Version Isolation',
-  制作游戏整合包: 'Create Game Modpack',
-  编写规则: 'Write Rules',
   作者: 'Author',
   团队成员: 'Team Member',
   'BakaXL 开发自 ❤': 'BakaXL Developed by ❤',
@@ -34,6 +27,18 @@ export const eng = {
   '在 Linux 中运行 BakaXL 4.0 时不显示窗体':
     'Running BakaXL 4.0 in Linux does not display the form',
   'BakaXL 4.0 无限弹窗提醒更新': 'BakaXL 4.0 infinite pop-up reminder update',
+  'v3版本': 'v3 Version',
+  'v4版本(开发中)': 'v4 Version (WIP)',
+  '常见问题': 'FAQ',
+  '游戏常见问题': 'Common Game Issues',
+  '游戏版本隔离': 'Game Version Isolation',
+  '制作整合包': 'Creating Modpacks',
+  '编写规则(已封存)': 'Writing Rules (Archived)',
+  '在Ubuntu系统上运行BakaXL': 'Running BakaXL on Ubuntu',
+  '运行指南(施工中)': 'Running Guide (WIP)',
+  '开始使用': 'Getting Started',
+  'v3版本文档': 'v3 Version Documentation',
+  'v4版本文档': 'v4 Version Documentation',
 }
 
 export const langMap: Record<string, Record<string, string>> = {

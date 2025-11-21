@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: 🚀 开始使用 BakaXL 3
-      link: /v3/
+      link: ./v3/
     - theme: alt
       text: 🆘 在 BakaXL 中遇到了困难
-      link: /v3/faq
+      link: ./v3/faq
 
 features:
   - title: ✨ 全新设计，全新体验

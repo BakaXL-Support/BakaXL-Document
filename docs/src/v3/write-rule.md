@@ -39,9 +39,9 @@
   - 在所有文档中请使用 `# 标题` 作为该文档的主标题，该标题不得有第二个，使用 `## 标题` 作为问题标题，使用标题请务必按照层级使用，不得跨级，否则会导致侧边栏不渲染目录！
 - 禁止随意使用 HTML 来渲染文档！ Markdown 支持通过 HTML 在获得一些特殊的效果，但是除非必要请勿使用 HTML 作为语法。
 
-:::tip 排版提示
-在进行编写时，请务必参考该项目：[中文文案排版指北 - GitHub](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)
-:::
+>[!TIP] 排版提示
+> 在进行编写时，请务必参考该项目：[中文文案排版指北 - GitHub](https://github.com/sparanoid/chinese-copywriting-guidelines/blob/master/README.zh-Hans.md)
+
 
 ### 改善观感
 
@@ -82,13 +82,13 @@
 
 > 大驼峰命名法: 所有单词首字母大写。
 
-::: warning 注意
-如果你不知道如何命名，请在群内询问 / 参考其它文件命名方法。
-:::
+>[!WARNING] 注意
+> 如果你不知道如何命名，请在群内询问 / 参考其它文件命名方法。
 
-::: tip 规则之外的情况
-`maindocs.md` 文件属于例外，其中 `assets/img` 便是 `maindocs.md` 的资源文件存放文件夹。
-:::
+
+>[!TIP] 规则之外的情况
+> `maindocs.md` 文件属于例外，其中 `assets/img` 便是 `maindocs.md` 的资源文件存放文件夹。
+
 
 ### 提交方法
 
