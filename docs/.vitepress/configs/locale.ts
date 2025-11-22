@@ -28,9 +28,9 @@ export const getLocaleConfig = (lang: string) => {
     { text: `🏠${t('主页')}`, link: urlPrefix + '/' },
     { text: `📚${t('文档')}`, link: urlPrefix + '/v3/' },
   ]
- 
+
   const themeConfig: DefaultTheme.Config = {
-    logo: '/favicon.svg',
+    logo: '/favicon.ico',
     nav,
     sidebar: docsSidebar(lang), // 配置多语言侧边栏
     socialLinks: [
