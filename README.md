@@ -1,6 +1,8 @@
+[English](README_EN.md) | 简体中文
+
 # BakaXL 用户帮助文档
 
-**本文档已整合 BakaXL v3 与 v4 的内容**
+**本文档包含 BakaXL v3 与 v4 (_WIP_) 的内容**
 
 ## 部署/测试帮助
 
@@ -23,13 +25,13 @@ git clone https://github.com/BakaXL-Support/BakaXL-Document
 ```
 
 
-2. 打开本地仓库文件夹，在控制台中输入
+2. 打开本地仓库文件夹，运行
 
 ```bash
 pnpm install
 ```
 
-3. 安装完成后，输入以下命令启动本地服务器
+3. 安装完成后，运行以下命令启动本地服务器
 
 ```bash
 pnpm dev
@@ -46,10 +48,10 @@ pnpm dev
 
 按下`q`以关闭本地服务器
 
-4. 提交前请运行
+4. 提交前请运行以下指令以检查代码
 
 ```bash
 pnpm build
 ```
 
-以检查代码
+
