@@ -15,7 +15,13 @@ export default defineConfig({
   base: '/BakaXL-Document',
   srcDir: 'src',
   assetsDir: 'assets',
-  head: [['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]],
+  head: [
+    ['link', { 
+      rel: 'icon', 
+      type: 'image/png', 
+      href: '/BakaXL-Document/favicon.ico' 
+    }]
+  ],
   lastUpdated: true,
   rewrites: {},
   locales: {
