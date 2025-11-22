@@ -1,8 +1,11 @@
 import { defineConfig } from 'vitepress'
 import { getLocaleConfig } from './configs'
 import Unocss from 'unocss/vite'
-import { docsSidebar } from '../src/sidebar';
-import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons'
+import { docsSidebar } from '../src/sidebar'
+import {
+  groupIconMdPlugin,
+  groupIconVitePlugin,
+} from 'vitepress-plugin-group-icons'
 import footnotePlugin from 'markdown-it-footnote'
 
 import {
@@ -12,15 +15,18 @@ import {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/BakaXL-Document',
+  base: '/',
   srcDir: 'src',
   assetsDir: 'assets',
   head: [
-    ['link', { 
-      rel: 'icon', 
-      type: 'image/png', 
-      href: '/BakaXL-Document/favicon.ico' 
-    }]
+    [
+      'link',
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href: '/favicon.ico',
+      },
+    ],
   ],
   lastUpdated: true,
   rewrites: {},
@@ -35,9 +41,9 @@ export default defineConfig({
     config: (md) => {
       md.use(footnotePlugin)
       md.use(groupIconMdPlugin)
-    }
+    },
   },
-  
+
   themeConfig: {
     sidebar: docsSidebar(),
     outline: { level: [1, 3] },
@@ -66,7 +72,7 @@ export default defineConfig({
       },
     },
   },
-  
+
   vite: {
     optimizeDeps: {
       include: [
@@ -89,8 +95,7 @@ export default defineConfig({
       // }),
       // GitChangelogMarkdownSection(),
       Unocss(),
-      groupIconVitePlugin()
+      groupIconVitePlugin(),
     ],
   },
 })
-
