@@ -54,6 +54,7 @@ export const getLocaleConfig = (lang: string) => {
     Object.assign(themeConfig, {
       outline: {
         label: '页面导航',
+        level: [1, 3],
       },
       lastUpdatedText: '最后更新于',
       darkModeSwitchLabel: '外观',
