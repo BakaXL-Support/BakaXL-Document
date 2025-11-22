@@ -12,7 +12,7 @@ import {
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/docs'
+  base: '/docs',
   srcDir: 'src',
   assetsDir: 'assets',
   head: [['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]],
