@@ -23,14 +23,13 @@ git clone https://github.com/BakaXL-Support/BakaXL-Document
 ```
 
 
-2. 打开本地仓库文件夹，在`终端`中输入
+2. 打开本地仓库文件夹，在控制台中输入
 
 ```bash
 pnpm install
-```https://github.com/BakaXL-Support/BakaXL-Document
 ```
 
-3. 安装完成后，输入以下命令启动本地测试环境
+3. 安装完成后，输入以下命令启动本地服务器
 
 ```bash
 pnpm dev
