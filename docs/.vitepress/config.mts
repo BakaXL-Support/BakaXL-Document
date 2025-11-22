@@ -15,6 +15,7 @@ export default defineConfig({
   srcDir: 'src',
   assetsDir: 'assets',
   head: [['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }]],
+  lastUpdated: true,
   rewrites: {},
   locales: {
     root: getLocaleConfig('cn'),
@@ -32,7 +33,7 @@ export default defineConfig({
   
   themeConfig: {
     sidebar: docsSidebar(),
-    outline: [1, 4],
+    outline: { level: [1, 3] },
     search: {
       provider: 'local',
       options: {
