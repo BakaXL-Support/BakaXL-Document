@@ -1,3 +1,5 @@
+English | [简体中文](README.md)
+
 # BakaXL User Help Documentation
 
 **This document covers both BakaXL v3 and v4 (_WIP_)**
