@@ -38,7 +38,7 @@ export const getLocaleConfig = (lang: string) => {
         icon: 'github',
         link: repoLink,
       },
-    ],
+    ],    
     footer: {
       message: t('用 💴 发电'),
       copyright:
