@@ -4,7 +4,8 @@ layout: home
 
 hero:
   name: "BakaXL Help Center"
-  text: "下一代 BakaXL \n用户帮助文档中心"
+  text: "下一代"
+  textsuffix: "BakaXL \n用户帮助文档中心"
   tagline: 为 BakaXL 用户打造的帮助文档
   image: "/logo.png"
   actions:
@@ -23,4 +24,4 @@ features:
   - title: 🐕‍🦺 互帮互助，共同进步
     details: 
 ---
-
+<Home />
