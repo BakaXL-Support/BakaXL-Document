@@ -7,6 +7,7 @@ import {
   groupIconVitePlugin,
 } from 'vitepress-plugin-group-icons'
 import footnotePlugin from 'markdown-it-footnote'
+import { figure } from '@mdit/plugin-figure'
 
 import {
   GitChangelog,
@@ -41,6 +42,7 @@ export default defineConfig({
     config: (md) => {
       md.use(footnotePlugin)
       md.use(groupIconMdPlugin)
+      md.use(figure)
     },
   },
 

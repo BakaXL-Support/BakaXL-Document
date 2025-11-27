@@ -4,7 +4,8 @@ layout: home
 
 hero:
   name: "BakaXL Help Center"
-  text: "The next generate user help center"
+  text: "The next generate"
+  textsuffix: "user help center"
   tagline: "Help Documents for BakaXL Users"
   image: "/logo.png"
   actions:
@@ -26,4 +27,4 @@ features:
 nolebase:
   gitChangelog: false
 ---
-
+<Home />

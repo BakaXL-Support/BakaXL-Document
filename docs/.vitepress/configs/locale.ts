@@ -38,14 +38,14 @@ export const getLocaleConfig = (lang: string) => {
         icon: 'github',
         link: repoLink,
       },
-    ],
+    ],    
     footer: {
       message: t('用 💴 发电'),
       copyright:
         'MIT License © 2024-PRESENT <a href="https://github.com/BakaXL-Support">Failure Cats 🐱</a>',
     },
     editLink: {
-      pattern: `${repoLink}/edit/main/docs/:path`,
+      pattern: `${repoLink}/edit/main/docs/src/:path`,
       text: t('在 GitHub 上编辑此页'),
     },
   }
