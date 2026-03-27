@@ -338,7 +338,7 @@ Please call your Internet service provider (China Telecom 10000 / China Unicom 1
 
 ## If This Document Does Not Solve Your Problem
 
-- Ask for help in the BakaXL user group, QQ group: [480455628](https://jq.qq.com/?_wv=1027&k=3WQFYmP1);
+- Ask for help in the BakaXL user group, QQ group: [377521448](https://jq.qq.com/?_wv=1027&k=3WQFYmP1);
 - Ask for help in the BakaXL Help Document Center: [Seek help by proposing an issue](https://github.com/BakaXL-Support/BakaXL-QA-docs/issues/new/choose) [Seek help by starting a discussion](https://github.com/BakaXL-Support/BakaXL-QA-docs/discussions).
 
 > Generally speaking, when seeking help in the help document center, we recommend sending your problem in the form of a *proposal*, but it is a bit troublesome because you need to provide enough information to analyze the cause.

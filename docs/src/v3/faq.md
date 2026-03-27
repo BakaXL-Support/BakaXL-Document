@@ -338,7 +338,7 @@ BakaXL 大厅本身并不限制游戏人数，该限制来自 Minecraft 本身�
 
 ## 若此文档未能解决您的问题
 
-- 在 BakaXL 用户群求助，QQ群: [480455628](https://jq.qq.com/?_wv=1027&k=3WQFYmP1)；
+- 在 BakaXL 用户群求助，QQ群: [377521448](https://jq.qq.com/?_wv=1027&k=3WQFYmP1)；
 - 在 BakaXL 帮助文档中心求助: [以提议的方式求助](https://github.com/BakaXL-Support/BakaXL-QA-docs/issues/new/choose) [以讨论的方式求助](https://github.com/BakaXL-Support/BakaXL-QA-docs/discussions)。
 
 > 通常来说在帮助文档中心求助我们更建议以 *提议的方式* 发送您的问题，但是有些麻烦，因为需要您提供足够的信息来分析原因。

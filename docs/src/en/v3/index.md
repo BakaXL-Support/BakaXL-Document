@@ -21,7 +21,7 @@ If you are using Windows 7, .NET Framework may not be pre-installed with the sys
 > [!WARNING]
 If you are using Windows 8.1 / 10 / 11 and encounter issues where the launcher fails to start, try repairing the system using a system image or upgrading to a newer version of the system.
 
-You can also seek help in the [BakaXL Outsider QQ Group (480455628)](https://jq.qq.com/?_wv=1027&k=U1ZY0qbg).
+You can also seek help in the [BakaXL Troubleshooting Project (377521448)](https://qm.qq.com/qKs5mcyS1Gu).
 
 <span id="download"></span>
 
@@ -263,4 +263,4 @@ Just go to `Launcher Settings` - `Accounts & Profiles`, click your offline profi
 
 Then go to `Bakaverse / Multiplayer Lobby` - `User Settings` and ensure that `BakaXL Network SkinShare` is enabled.
 
-> If you still cannot solve your problem after reading this user manual and the [help documentation](./faq), you can seek help in the [BakaXL Outsider QQ Group (480455628)](https://jq.qq.com/?_wv=1027&k=U1ZY0qbg).
+> If you still cannot solve your problem after reading this user manual and the [help documentation](./faq), you can seek help in the [BakaXL Troubleshooting Project (377521448)](https://qm.qq.com/qKs5mcyS1Gu).
