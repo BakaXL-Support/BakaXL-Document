@@ -21,7 +21,7 @@
 > [!WARNING]
 如果您正在使用 Windows 8.1 / 10 / 11 并出现启动器无法启动的问题，请尝试使用镜像修复系统，抑或是升级到更高版本的系统。
 
-您也可以前往 [BakaXL Outsider QQ 群 (480455628)](https://jq.qq.com/?_wv=1027&k=U1ZY0qbg) 寻求帮助。
+您也可以前往 [BakaXL 疑难杂症 Project (377521448)](https://qm.qq.com/qKs5mcyS1Gu) 寻求帮助。
 
 <span id="download"></span>
 
@@ -265,4 +265,4 @@ BakaXL 内置有 BakaXL Network 功能，该功能能够可以实现一些社交
 
 之后前往`领域/联机大厅`-`用户设置`，确保`BakaXL Network SkinShare 皮肤妙享`为开启状态
 
-> 如果您阅读了此使用手册和[帮助文档](./faq)后仍未解决您的问题，可以在 [BakaXL Outsider QQ 群 (480455628)](https://jq.qq.com/?_wv=1027&k=U1ZY0qbg) 来寻求帮助。
+> 如果您阅读了此使用手册和[帮助文档](./faq)后仍未解决您的问题，可以在 [BakaXL 疑难杂症 Project (377521448)](https://qm.qq.com/qKs5mcyS1Gu) 来寻求帮助。
