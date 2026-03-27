@@ -135,3 +135,7 @@
 .VPFeatures .items .item:hover {
 	transform: translateY(-5px);
 }
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
