@@ -121,3 +121,7 @@
 .VPSocialLinks.VPNavBarSocialLinks.social-links {
   margin-right: 0;
 }
+
+.divider {
+  display: none;
+}
