@@ -10,6 +10,8 @@ import {
   NolebaseEnhancedReadabilitiesScreenMenu,
 } from "@nolebase/vitepress-plugin-enhanced-readabilities/client";
 import "@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css";
+import { Footer } from "@theojs/lumen";
+import { Footer_Data } from "./footer";
 
 const { isDark } = useData();
 
@@ -66,6 +68,9 @@ provide("toggle-appearance", async ({ clientX: x, clientY: y }: MouseEvent) => {
     </template>
     <template #layout-top>
       <NolebaseHighlightTargetedHeading />
+    </template>
+    <template #layout-bottom>
+      <Footer :Footer_Data="Footer_Data" />
     </template>
   </DefaultTheme.Layout>
 </template>
