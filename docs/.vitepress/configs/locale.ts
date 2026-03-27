@@ -25,8 +25,8 @@ export const getLocaleConfig = (lang: string) => {
   ]
 
   const nav: DefaultTheme.NavItem[] = [
-    { text: `🏠${t('主页')}`, link: urlPrefix + '/' },
-    { text: `📚${t('文档')}`, link: urlPrefix + '/v3/' },
+    { text: `${t('主页')}`, link: urlPrefix + '/' },
+    { text: `${t('文档')}`, link: urlPrefix + '/v3/' },
   ]
 
   const themeConfig: DefaultTheme.Config = {
