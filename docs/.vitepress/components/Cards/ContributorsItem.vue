@@ -70,11 +70,11 @@ const { member } = defineProps<Props>()
 .profile {
     flex-grow: 1;
     background-color: var(--vp-c-bg-soft);
-    transition-duration: 600ms;
+    transition: transform 0.3s;
 }
 
 .profile:hover {
-    background-color: var(--vp-c-bg-alt);
+    transform: translateY(-5px);
 }
 
 .data {

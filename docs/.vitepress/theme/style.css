@@ -125,3 +125,13 @@
 .divider {
   display: none;
 }
+
+.VPTeamMembers .item,
+.VPFeatures .items .item {
+	transition: transform 0.3s;
+}
+
+.VPTeamMembers .item:hover,
+.VPFeatures .items .item:hover {
+	transform: translateY(-5px);
+}
