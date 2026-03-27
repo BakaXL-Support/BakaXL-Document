@@ -6,7 +6,7 @@ interface Props {
     members: {
         avatar: string
         name: string
-        links: string
+        link: string
     }[]
 }
 
