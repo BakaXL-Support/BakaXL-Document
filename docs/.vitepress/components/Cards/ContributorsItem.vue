@@ -35,7 +35,12 @@ const { member } = defineProps<Props>()
     border-radius: 12px;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    background-color: var(--vp-c-bg-soft);
+    transition: transform 0.3s;
+}
+
+.ContributorsItem:hover {
+    transform: translateY(-5px);
 }
 
 .ContributorsItem .profile {
@@ -68,13 +73,7 @@ const { member } = defineProps<Props>()
 }
 
 .profile {
-    flex-grow: 1;
-    background-color: var(--vp-c-bg-soft);
     transition: transform 0.3s;
-}
-
-.profile:hover {
-    transform: translateY(-5px);
 }
 
 .data {
