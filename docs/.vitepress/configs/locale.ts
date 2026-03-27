@@ -25,8 +25,8 @@ export const getLocaleConfig = (lang: string) => {
   ]
 
   const nav: DefaultTheme.NavItem[] = [
-    { text: `${t('主页')}`, link: urlPrefix + '/' },
-    { text: `${t('文档')}`, link: urlPrefix + '/v3/' },
+    { text: `<iconify-icon class="i-mr" icon="mdi:home" style="color:#e74c3c"></iconify-icon>${t('主页')}`, link: urlPrefix + '/' },
+    { text: `<iconify-icon class="i-mr" icon="mdi:file-document" style="color:#3498db"></iconify-icon>${t('文档')}`, link: urlPrefix + '/v3/' },
   ]
 
   const themeConfig: DefaultTheme.Config = {
