@@ -21,7 +21,7 @@
 > [!WARNING]
 如果您正在使用 Windows 8.1 / 10 / 11 并出现启动器无法启动的问题，请尝试使用镜像修复系统，抑或是升级到更高版本的系统。
 
-您也可以前往 [BakaXL 疑难杂症 Project (377521448)](https://qm.qq.com/qKs5mcyS1Gu) 寻求帮助。
+您也可以前往 [BakaXL 疑难杂症 Project (377521448)](https://qm.qq.com/q/Ks5mcyS1Gu) 寻求帮助。
 
 <span id="download"></span>
 
