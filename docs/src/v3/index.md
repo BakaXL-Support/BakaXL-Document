@@ -265,4 +265,4 @@ BakaXL 内置有 BakaXL Network 功能，该功能能够可以实现一些社交
 
 之后前往`领域/联机大厅`-`用户设置`，确保`BakaXL Network SkinShare 皮肤妙享`为开启状态
 
-> 如果您阅读了此使用手册和[帮助文档](./faq)后仍未解决您的问题，可以在 [BakaXL 疑难杂症 Project (377521448)](https://qm.qq.com/qKs5mcyS1Gu) 来寻求帮助。
+> 如果您阅读了此使用手册和[帮助文档](./faq)后仍未解决您的问题，可以在 [BakaXL 疑难杂症 Project (377521448)](https://qm.qq.com/q/Ks5mcyS1Gu) 来寻求帮助。
