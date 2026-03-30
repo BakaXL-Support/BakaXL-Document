@@ -21,7 +21,7 @@ If you are using Windows 7, .NET Framework may not be pre-installed with the sys
 > [!WARNING]
 If you are using Windows 8.1 / 10 / 11 and encounter issues where the launcher fails to start, try repairing the system using a system image or upgrading to a newer version of the system.
 
-You can also seek help in the [BakaXL Troubleshooting Project (377521448)](https://qm.qq.com/qKs5mcyS1Gu).
+You can also seek help in the [BakaXL Troubleshooting Project (377521448)](https://qm.qq.com/q/Ks5mcyS1Gu).
 
 <span id="download"></span>
 
