@@ -50,7 +50,6 @@ export default {
     app.component('StatusBadge', StatusBadge)
     app.component('WarnTip', WarnTip)
     app.component('BakaFourIndexButtonList', BakaFourIndexButtonList)
-    app.component('ContributorCards')
     app.component('Home', Underline)
     app.provide(EnhanceInjectionKey, {
       layoutSwitch: {
