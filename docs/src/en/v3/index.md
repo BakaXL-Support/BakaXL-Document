@@ -263,4 +263,4 @@ Just go to `Launcher Settings` - `Accounts & Profiles`, click your offline profi
 
 Then go to `Bakaverse / Multiplayer Lobby` - `User Settings` and ensure that `BakaXL Network SkinShare` is enabled.
 
-> If you still cannot solve your problem after reading this user manual and the [help documentation](./faq), you can seek help in the [BakaXL Troubleshooting Project (377521448)](https://qm.qq.com/qKs5mcyS1Gu).
+> If you still cannot solve your problem after reading this user manual and the [help documentation](./faq), you can seek help in the [BakaXL Troubleshooting Project (377521448)](https://qm.qq.com/q/Ks5mcyS1Gu).
