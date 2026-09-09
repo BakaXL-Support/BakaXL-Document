@@ -13,6 +13,13 @@ outline: deep
 
 ## 一些早期测试疑问
 
+### Windows 7 用户可以运行 BakaXL 4.0 吗？
+
+使用 VxKex 可以使 BakaXL 4.0 在 Windows 7 上运行，但无法保证所有功能可用。
+
+> [!WARNING]
+> BakaXL 4.0 不会为通过 VxKex 在 Windows 7 上运行 BakaXL 的用户提供技术支持。
+
 
 ### 更加流畅的帧数
 

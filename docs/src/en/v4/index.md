@@ -14,6 +14,14 @@ You might want to know:
 
 ## Some Early Testing Questions
 
+### Can Windows 7 Users Run BakaXL 4.0?
+
+VxKex allows BakaXL 4.0 to run on Windows 7, but not all features are guaranteed to work.
+
+::: warning
+BakaXL 4.0 does not provide technical support for users running BakaXL on Windows 7 through VxKex.
+:::
+
 ### Smoother Frame Rate
 
 Set the environment variable `WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS --disable-frame-rate-limit --disable-gpu-vsync --max-gum-fps="9999"` to unlock BakaXL 4's frame rate limit
