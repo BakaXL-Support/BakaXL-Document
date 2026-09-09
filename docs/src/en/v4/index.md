@@ -31,3 +31,13 @@ You can try running the following command in the terminal to solve this issue:
 ```bash
 WEBKIT_DISABLE_DMABUF_RENDERER=1
 ```
+
+### NVIDIA Driver Compatibility Warning or Automatic Interface Reloads on Linux
+
+On Linux systems with an NVIDIA graphics card and a driver version below 595, a driver bug causes file descriptors (FDs) to be created repeatedly without being released. Once the number of FDs reaches the per-process limit, the process freezes, leaving the BakaXL interface unresponsive.
+
+When BakaXL 4.0 detects this issue, it continuously monitors the FD count and forcibly recreates the WebView rendering process as the count approaches the limit, before the process freezes. You may therefore see an NVIDIA driver compatibility warning or notice the interface reloading automatically. This is a protective measure to prevent freezes; it does not fix the underlying driver bug.
+
+![WebKit rendering process health notification in the activity panel, showing an NVIDIA driver compatibility warning and file descriptor usage](../../assets/v4-cn/imgs/nvidia-driver-fd-warning.png)
+
+> The screenshot shows the Chinese interface and is for reference only. The interface, values, and trigger threshold may vary by version.
