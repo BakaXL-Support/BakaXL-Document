@@ -31,7 +31,7 @@
 
 [>> BakaXL 官网](https://www.bakaxl.com)
 
-> 『由于服务器需要费用，我们希望您可以对 BakaXL 进行[捐助](https://afdian.net/@TT702)，请在捐助时留下您的 BakaXL Account 邮箱。BakaXL 开发者将会给您的账号添加赞助者标识以及 Insider 预览体验计划成员标识，并且您将可以进入 Insiders 局内人内部交流群。』
+> 『由于服务器需要费用，我们希望您可以对 BakaXL 进行[捐助](https://afdian.com/@TT702)，请在捐助时留下您的 BakaXL Account 邮箱。BakaXL 开发者将会给您的账号添加赞助者标识以及 Insider 预览体验计划成员标识，并且您将可以进入 Insiders 局内人内部交流群。』
 
 ### 注意
 
